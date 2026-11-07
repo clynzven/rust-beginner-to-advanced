@@ -1,7 +1,5 @@
 # Rust: Beginner to Advanced
 
-[![CI](https://github.com/clintbugsdev/rust-beginner-to-advanced/actions/workflows/ci.yml/badge.svg)](https://github.com/clintbugsdev/rust-beginner-to-advanced/actions/workflows/ci.yml)
-
 The source code for the free 24-lesson video course **Rust: Beginner to Advanced** on the
 **ClynzVen Code Academy** YouTube channel.
 
