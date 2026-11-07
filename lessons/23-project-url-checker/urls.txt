@@ -1,0 +1,7 @@
+http://127.0.0.1:8090/ok
+http://127.0.0.1:8090/slow?ms=300
+http://127.0.0.1:8090/status/500
+http://127.0.0.1:8090/missing
+http://127.0.0.1:8090/slow?ms=3000
+http://127.0.0.1:9999/nothing-listens-here
+not a url

@@ -1,0 +1,21 @@
+struct Countdown(u32);
+
+impl Iterator for Countdown {
+    type Item = u32;
+    fn next(&mut self) -> Option<u32> {
+        if self.0 == 0 {
+            None
+        } else {
+            self.0 -= 1;
+            Some(self.0 + 1)
+        }
+    }
+}
+
+fn main() {
+    let launch: Vec<u32> = Countdown(5).collect();
+    println!("{launch:?} liftoff!");
+
+    let total: u32 = Countdown(100).filter(|n| n % 7 == 0).sum();
+    println!("multiples of 7 up to 100 sum to {total}");
+}

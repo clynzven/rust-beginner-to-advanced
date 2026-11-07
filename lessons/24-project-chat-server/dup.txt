@@ -1,0 +1,2 @@
+  [ana sees] Welcome! What's your name?
+  [ana sees] Sorry, that name is taken.

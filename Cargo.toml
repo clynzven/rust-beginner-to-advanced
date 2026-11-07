@@ -1,0 +1,30 @@
+# One Cargo workspace for all 24 lessons: one shared `target/` folder, so
+# dependencies compile once. Each lesson is still its own crate.
+[workspace]
+resolver = "3"
+members = [
+    "lessons/01-hello-rust",
+    "lessons/02-variables-and-types",
+    "lessons/03-functions-and-control-flow",
+    "lessons/04-ownership",
+    "lessons/05-borrowing-and-slices",
+    "lessons/06-structs-and-methods",
+    "lessons/07-enums-and-pattern-matching",
+    "lessons/08-collections",
+    "lessons/09-error-handling",
+    "lessons/10-modules-and-cargo",
+    "lessons/11-generics-and-traits",
+    "lessons/12-lifetimes",
+    "lessons/13-closures-and-iterators",
+    "lessons/14-testing-and-documentation",
+    "lessons/15-smart-pointers",
+    "lessons/16-concurrency",
+    "lessons/17-async-with-tokio",
+    "lessons/18-advanced-traits",
+    "lessons/19-macros",
+    "lessons/20-unsafe-ffi-performance",
+    "lessons/21-project-cli-tool",
+    "lessons/22-project-rest-api",
+    "lessons/23-project-url-checker",
+    "lessons/24-project-chat-server",
+]

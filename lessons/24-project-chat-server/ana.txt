@@ -1,0 +1,7 @@
+  [ana sees] Welcome! What's your name?
+  [ana sees] Hi ana! Commands: /who, /quit
+  [ana sees] * ben joined
+  [ana sees] ben: hey ana
+  [ana sees] ben: yes, for my API
+  [ana sees] Online: ana, ben
+  [ana sees] * ben left
