@@ -129,7 +129,7 @@ cargo run -p ownership                  # run a lesson from the top folder (use 
 
 ## About
 
-Made by Clinton L. Bugtong for the ClynzVen Code Academy YouTube channel.
-The video narration uses an AI-generated voice; all code and outputs in the videos are real.
+Made for the ClynzVen Code Academy YouTube channel.
+All code and outputs in the videos are real.
 
 The code is released under the [MIT License](LICENSE): use it freely in your own projects.
