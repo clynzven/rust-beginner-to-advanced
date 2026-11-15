@@ -1,5 +1,7 @@
 # Rust: Beginner to Advanced
 
+[![CI](https://github.com/clynzven/rust-beginner-to-advanced/actions/workflows/ci.yml/badge.svg)](https://github.com/clynzven/rust-beginner-to-advanced/actions/workflows/ci.yml)
+
 The source code for the free 24-lesson video course **Rust: Beginner to Advanced** on the
 **ClynzVen Code Academy** YouTube channel.
 
@@ -58,7 +60,7 @@ An editor with **rust-analyzer** helps a lot: VS Code with the rust-analyzer ext
 ### 2. Get the code
 
 ```bash
-git clone https://github.com/clintbugsdev/rust-beginner-to-advanced.git
+git clone https://github.com/clynzven/rust-beginner-to-advanced.git
 cd rust-beginner-to-advanced
 ```
 
